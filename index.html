@@ -1,3 +1,79 @@
-Лична страница на Герасим
 
-<a href="https://www.youtube.com/@frovagari">YouTube</a>
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Моите истории, пътешествия и видеа. Последвай ме в социалните мрежи.">
+  <title>Моят свят</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      font-family: system-ui, sans-serif;
+      color: #f1f5f9;
+      background: linear-gradient(135deg, #10151c, #243447);
+    }
+
+    main {
+      width: 100%;
+      max-width: 440px;
+      text-align: center;
+    }
+
+    h1 { font-size: 2.5rem; margin-bottom: 12px; }
+    p { color: #bdc9d8; line-height: 1.7; }
+
+    .links {
+      display: grid;
+      gap: 12px;
+      margin-top: 30px;
+    }
+
+    .links a {
+      display: block;
+      padding: 16px;
+      border: 1px solid #465568;
+      border-radius: 12px;
+      color: #fff;
+      background: #202b38;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.2s, transform 0.2s;
+    }
+
+    .links a:hover {
+      background: #34465a;
+      transform: translateY(-2px);
+    }
+
+    footer {
+      margin-top: 36px;
+      color: #8d9bad;
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Моят свят</h1>
+    <p>
+      Истории, пътешествия и моменти,
+      които си струва да споделим.
+    </p>
+
+    <nav class="links" aria-label="Социални мрежи">
+      <a href="https://www.instagram.com/frovagari/" target="_blank" rel="noopener noreferrer">Instagram</a>
+<a href="https://www.tiktok.com/@frovagari" target="_blank" rel="noopener noreferrer">TikTok</a>
+<a href="https://www.youtube.com/@frovagari" target="_blank" rel="noopener noreferrer">YouTube</a>
+    </nav>
+
+    <footer>© 2026 · Всички права запазени</footer>
+  </main>
+</body>
+</html>
